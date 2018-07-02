@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "For instance the json:\r\n\r\n      \"products_name\": {\r\n        \"1\": \"Fashion Ladies Woman Casual Sleeveless Vest Striped Loose Basic Loose Tank Tops\",\r\n        \"5\": \"Fashion Ladies Woman Casual Sleeveless Vest Striped Loose Basic Loose Tank Tops\",\r\n        \"9\": \"Fashion Ladies Woman Casual Sleeveless Vest Striped Loose Basic Loose Tank Tops\",\r\n        \"10\": \"Fashion Ladies Woman Casual Sleeveless Vest Striped Loose Basic Loose Tank Tops\",\r\n        \"11\": \"Fashion Ladies Woman Casual Sleeveless Vest Striped Loose Basic Loose Tank Tops\",\r\n        \"12\": \"Fashion Ladies Woman Casual Sleeveless Vest Striped Loose Basic Loose Tank Tops\",\r\n        \"13\": \"Fashion Ladies Woman Casual Sleeveless Vest Striped Loose Basic Loose Tank Tops\",\r\n        \"14\": \"Fashion Ladies Woman Casual Sleeveless Vest Striped Loose Basic Loose Tank Tops\"\r\n      }\r\n\r\nResults with:\r\n\r\n public class ProductsName\r\n{\r\n    public string __invalid_name__1 { get; set; }\r\n    public string __invalid_name__5 { get; set; }\r\n    public string __invalid_name__9 { get; set; }\r\n    public string __invalid_name__10 { get; set; }\r\n    public string __invalid_name__11 { get; set; }\r\n    public string __invalid_name__12 { get; set; }\r\n    public string __invalid_name__13 { get; set; }\r\n    public string __invalid_name__14 { get; set; }\r\n}\r\n\r\nThere nust be a way to have a list or dictionary or",
+    "LastUpdatedDate": "2016-02-28T01:40:13.583-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "jsonclassgenerator",
+    "ReportedDate": "2016-02-28T01:40:13.583-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "__invalid_name__XXX is generated when the key is number (XXX)",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 1303
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1200867",
+    "ThreadId": "528404",
+    "Html": "hi there,\r<br />\n<br />\non my windows 7 laptop with vs2013 instaaled, i get this error\r<br />\n<br />\nunable to generate the code: unable to cast object of type newtonsoft.json.linq.jarray to type newtonsoft.json.linq.jobject\r<br />\n<br />\nhere's my JSON.\r<br />\n<br />\nthanks\r<br />\n<br />\n[<br />\n<pre><code>{\n    &quot;page&quot;: 1,\n    &quot;pages&quot;: 6,\n    &quot;per_page&quot;: &quot;50&quot;,\n    &quot;total&quot;: 256\n},\n[\n    {\n        &quot;id&quot;: &quot;ABW&quot;,\n        &quot;iso2Code&quot;: &quot;AW&quot;,\n        &quot;name&quot;: &quot;Aruba&quot;,\n        &quot;region&quot;: {\n            &quot;id&quot;: &quot;LCN&quot;,\n            &quot;value&quot;: &quot;Latin America &amp; Caribbean (all income levels)&quot;\n        },\n        &quot;adminregion&quot;: {\n            &quot;id&quot;: &quot;&quot;,\n            &quot;value&quot;: &quot;&quot;\n        },\n        &quot;incomeLevel&quot;: {\n            &quot;id&quot;: &quot;NOC&quot;,\n            &quot;value&quot;: &quot;High income: nonOECD&quot;\n        },\n        &quot;lendingType&quot;: {\n            &quot;id&quot;: &quot;LNX&quot;,\n            &quot;value&quot;: &quot;Not classified&quot;\n        },\n        &quot;capitalCity&quot;: &quot;Oranjestad&quot;,\n        &quot;longitude&quot;: &quot;-70.0167&quot;,\n        &quot;latitude&quot;: &quot;12.5167&quot;\n    } ..... etc.</code></pre>\n\n",
+    "PostedDate": "2014-01-30T03:32:42.323-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

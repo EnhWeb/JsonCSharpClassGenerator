@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1009288",
+    "ThreadId": "435131",
+    "Html": "Reference:\r<br />\n<a href=\"http://visualstudiogallery.msdn.microsoft.com/07d54d12-7133-4e15-becb-6f451ea3bea6\" rel=\"nofollow\">http://visualstudiogallery.msdn.microsoft.com/07d54d12-7133-4e15-becb-6f451ea3bea6</a>\r<br />\n<br />\nI would love to know how your implementation improves upon the one that Microsoft already provides.<br />\n",
+    "PostedDate": "2013-03-02T11:03:53.24-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1025426",
+    "ThreadId": "435131",
+    "Html": "I was just researching the new studio feature when i found this project.  One difference off the bat - you can make this tool generate PascalCase (required by our C# coding standards) and it will add JsonProperty attributes mapping to the capitalization used in the json.  In source code i also see a stub for creating Java classes.  Having that fleshed out would be really useful for where I work<br />\n",
+    "PostedDate": "2013-04-04T07:54:25.493-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

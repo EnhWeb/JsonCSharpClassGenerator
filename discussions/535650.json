@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "1215175",
+    "ThreadId": "535650",
+    "Html": "Thank you to the developer for such a great tool.  I made a little web utility with it, hope that is okay.  If anyone would like more languages added, I am looking to contribute.\r<br />\n<br />\n<a href=\"http://jsonutils.com/\" rel=\"nofollow\">JSON Utils</a><br />\n",
+    "PostedDate": "2014-02-26T07:51:45.483-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1250537",
+    "ThreadId": "535650",
+    "Html": "Great work! This helps a lot to create classes.<br />\n<br />\nI just tried this <a href=\"https://wiki.musicbrainz.org/Development/JSON_Web_Service\" rel=\"nofollow\">JSON example from Musicbrainz</a><br />\n<br />\nUnfortunately, your tool detects a &quot;Invalid JSON Syntax&quot; for the first example. Thats true for some other examples from this link too. Other works fine without any errors.<br />\n<br />\nCould you please check it?<br />\n<br />\nBTW: A CLEAR-Button would be nice .-)<br />\n",
+    "PostedDate": "2014-05-28T09:22:19.157-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1250612",
+    "ThreadId": "535650",
+    "Html": "<strong>CodePlexUser78 wrote:</strong><br />\n<blockquote>\nGreat work! This helps a lot to create classes.<br />\n<br />\nI just tried this <a href=\"https://wiki.musicbrainz.org/Development/JSON_Web_Service\" rel=\"nofollow\">JSON example from Musicbrainz</a><br />\n<br />\nUnfortunately, your tool detects a &quot;Invalid JSON Syntax&quot; for the first example. Thats true for some other examples from this link too. Other works fine without any errors.<br />\n<br />\nCould you please check it?<br />\n<br />\nBTW: A CLEAR-Button would be nice .-)<br />\n</blockquote>\nTheir example JSON has hidden invalid characters that get include in your copy/paste.  Click the links above the examples to call the actual api endpoints and copy paste that raw into JsonUtils and it works fine.  You can also install the bookmarklet so that anytime you're looking at a JSON response you can go directly to json utils and have it generate your objects immediately.<br />\n\r<br />\nI'll add a clear, thank you!<br />\n",
+    "PostedDate": "2014-05-28T12:52:26.947-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1310763",
+    "ThreadId": "535650",
+    "Html": "try this tool to analyse json data <a href=\"http://codebeautify.org/jsonviewer\" rel=\"nofollow\">http://codebeautify.org/jsonviewer</a><br />\n",
+    "PostedDate": "2014-10-06T06:29:39.13-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1310809",
+    "ThreadId": "535650",
+    "Html": "<strong>jamesmalvi wrote:</strong><br />\n<blockquote>\ntry this tool to analyse json data <a href=\"http://codebeautify.org/jsonviewer\" rel=\"nofollow\">http://codebeautify.org/jsonviewer</a><br />\n</blockquote>\nJames Malvi a.k.a. codebeautify is on a comment-spamming spree. Please keep the honors to yourself, undo/remove your spam trail and stop misbehaving.<br />\n",
+    "PostedDate": "2014-10-06T08:21:52.367-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1327818",
+    "ThreadId": "535650",
+    "Html": "@bladefist  I like your online tool... just wanted to point out a simple spelling error just so you might address it whenever you get a chance... beutify should have an &quot;a&quot; in it... thus it should be beautify.  Just wanting to help :)<br />\n",
+    "PostedDate": "2014-12-01T13:06:42.277-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

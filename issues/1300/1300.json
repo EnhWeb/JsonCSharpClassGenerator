@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 3,
+    "Custom": null,
+    "Description": "I'm using the binary programmatically like this:\r\n\r\n```\r\n\tvar j = new JsonClassGenerator();\t\r\n\tj.UseProperties = true;\t\r\n\tj.Namespace = \"RavenLinqpadDriver\";\r\n\tj.MainClass = \"MainClass\";\t\r\n\tj.Example = \"{'Name':'Ronnie', 'Age': 28}\";\r\n\tusing (var writer = new StringWriter())\r\n\t{\r\n\t\tj.OutputStream = writer;\r\n\t\tj.GenerateClasses();\r\n\t\tvar genCode = writer.ToString();\r\n\t}\r\n\r\n```\r\n\r\nIs there a way to force all generated numeric properties to be doubles instead of using an int32 when a decimal point is not present. If not, what are my options?",
+    "LastUpdatedDate": "2013-04-04T19:22:43.033-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "jsonclassgenerator",
+    "ReportedDate": "2013-04-01T16:28:47.267-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Way to make all generated number properties floating point?",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 1300
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "A related question:\n\nHow can I force javascript arrays to translate into List<T> instead of an array?",
+      "PostedDate": "2013-04-01T16:38:01.737-07:00",
+      "Id": 95555
+    },
+    {
+      "Message": "I also need to force all generated value types to be nullable :)\n\nThanks for any help.",
+      "PostedDate": "2013-04-01T16:48:41.15-07:00",
+      "Id": 95556
+    },
+    {
+      "Message": "> Is there a way to force all generated numeric properties to be doubles instead of using an int32 when a decimal point is not present\nYes, and it's the default behavior. I tried running the exact code of your example, and it correctly generates an int field. Can you confirm this?\n\n\n> How can I force javascript arrays to translate into List<T> instead of an array?\nThe condition for choosing between IList<T> and T[] was inverted. I've fixed the bug, thanks (T[] is used if you enable the (obsolete) explicit deserialization)\n\n> I also need to force all generated value types to be nullable :)\nI just added an AlwaysUseNullableValues property :) (it's not exposed via UI)\n\n",
+      "PostedDate": "2013-04-04T19:22:43.033-07:00",
+      "Id": 95953
+    }
+  ]
+}

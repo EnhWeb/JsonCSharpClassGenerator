@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1280107",
+    "ThreadId": "554884",
+    "Html": "Is there a command line version of this tool?<br />\n",
+    "PostedDate": "2014-08-01T10:54:51.677-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1328314",
+    "ThreadId": "554884",
+    "Html": "Any update on this?<br />\n<br />\nI'd like to be able to run this tool via the command line too. <br />\n<br />\nWould be very useful as part of our build process.<br />\n<br />\nThanks!<br />\n",
+    "PostedDate": "2014-12-03T01:09:14.17-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

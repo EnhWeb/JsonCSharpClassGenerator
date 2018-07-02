@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 1,
+    "Custom": null,
+    "Description": "It seems JSON C# Clss Generator doesn't supports array of objects like this:\r\n[{\"a\":1}{\"a\":2}]\r\nWill it support in the future?",
+    "LastUpdatedDate": "2013-02-21T16:06:56.74-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "jsonclassgenerator",
+    "ReportedDate": "2013-02-20T23:14:03.987-08:00",
+    "Status": {
+      "Name": "Active",
+      "Id": 2
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Doesn't support array of objects",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 1299
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Yes, the feature has already been checked into the repository. I will soon release the updated binaries.",
+      "PostedDate": "2013-02-21T09:22:45.897-08:00",
+      "Id": 91094
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 1170,
+    "Title": "Unable to generate the code: Unexpected character encountered while parsing value: ﻿. Line 1, position 1."
+  },
+  {
+    "Id": 1296,
+    "Title": "Unable to generate the code"
+  },
+  {
+    "Id": 1297,
+    "Title": "Need to update the ReadString() method of the JSonClassHelper.cs"
+  },
+  {
+    "Id": 1298,
+    "Title": "Make Generated Classes \"partial\""
+  },
+  {
+    "Id": 1299,
+    "Title": "Doesn't support array of objects"
+  },
+  {
+    "Id": 1300,
+    "Title": "Way to make all generated number properties floating point?"
+  },
+  {
+    "Id": 1301,
+    "Title": "Don't use ALIAS or DATE as identifier for VB.NET"
+  },
+  {
+    "Id": 1302,
+    "Title": "Doesn't support GUIDs"
+  },
+  {
+    "Id": 1303,
+    "Title": "__invalid_name__XXX is generated when the key is number (XXX)"
+  }
+]

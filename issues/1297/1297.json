@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "First of all, thank you very much for a such a wonderful library!\r\n\r\nThis Library I use mostly with the NewtonsoftJSon library. And with the recent release of the Newtonsoft JSON, the last line in the method throws a System.InvalidCastException.\r\n\r\n        public static string ReadString(JToken token)\r\n        {\r\n            var value = GetJToken<JValue>(token);\r\n            if (value == null) return null;\r\n            return (string)value.Value;\r\n        }\r\n\r\nThis happens not for all the strings. But strings that look like dates. For example if the JSON has something like \"start_time\": \"2012-07-27T11:30:00\" and when you try to read this, the NewtonSoft identifies the value.Value as DateTime and when you try to cast it to string, it throws the cast exception.\r\n\r\nA simple solution that I have followed for this to work with the upgraded version of the newtonsoft json is to call the ToString() method.\r\n\r\n        public static string ReadString(JToken token)\r\n        {\r\n            var value = GetJToken<JValue>(token);\r\n            if (value == null) return null;\r\n            return value.Value.ToString();\r\n        }\r\n\r\nWanted to share this with others as well and probably if this makes sense, please do the change to the main helper.\r\n\r\nThanks again for such a neat library!\r\nWell wisher,\r\nBraga",
+    "LastUpdatedDate": "2012-07-29T17:52:26.923-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "jsonclassgenerator",
+    "ReportedDate": "2012-07-29T17:52:26.923-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Need to update the ReadString() method of the JSonClassHelper.cs",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 1297
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

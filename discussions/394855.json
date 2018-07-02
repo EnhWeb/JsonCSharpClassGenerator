@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "909969",
+    "ThreadId": "394855",
+    "Html": "\r\n<p>This project is really....</p>\r\n<p>One suggestion though, is to factor out the basic C# generating funtionality out into a separate DLL, that can then be loaded into other usage scenarios - like a web based service, batch generation of C# from (multiple) http-feeds etc.</p>\r\n<p>I did so experimentally last night and it wasn't much work. I also added a switch for turning off the (english) pluralization feature :)</p>\r\n<p>A big mystery to me was how the JsonClassHelper.cs was originally added to the resx file - there doesn't seem to be a way to do that with the VS resx editor?</p>\r\n",
+    "PostedDate": "2012-09-08T07:08:11.723-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "910013",
+    "ThreadId": "394855",
+    "Html": "<p>This could be a nice idea.</p>\r\n<p>Anyway, JsonClassHelper.cs was included by manually editing Resources.resx:</p>\r\n<p>&nbsp; &lt;data name=\"JsonClassHelper\" type=\"System.Resources.ResXFileRef, System.Windows.Forms\"&gt;<br />&nbsp;&nbsp;&nbsp; &lt;value&gt;..\\jsonclasshelper.cs;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&lt;/value&gt;<br />&nbsp; &lt;/data&gt;</p>",
+    "PostedDate": "2012-09-08T10:42:47.043-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

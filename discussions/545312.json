@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1245258",
+    "ThreadId": "545312",
+    "Html": "Would it be possible for your (otherwise very helpful) tool to support code generation from <a href=\"http://www.jsonschema.net/\" rel=\"nofollow\">JSON Schema</a> and/or <a href=\"http://orderly-json.org/tryit\" rel=\"nofollow\">Orderly</a>?\r<br />\n<br />\nNB: I know JSON.NET supports schema generation (<a href=\"http://sixgun.wordpress.com/2012/02/09/using-json-net-to-generate-jsonschema/\" rel=\"nofollow\">http://sixgun.wordpress.com/2012/02/09/using-json-net-to-generate-jsonschema/</a>) and json validation (<a href=\"http://james.newtonking.com/json/help/index.html?topic=html/JsonSchema.htm\" rel=\"nofollow\">http://james.newtonking.com/json/help/index.html?topic=html/JsonSchema.htm</a>)<br />\n",
+    "PostedDate": "2014-05-14T05:37:25.82-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

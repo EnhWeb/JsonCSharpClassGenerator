@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2011-09-13T07:47:29.337-07:00",
+    "CommentCount": 2,
+    "Custom": "",
+    "Description": "I attempt to Generate the C# class, and I get the above error.\n\n\n\nSample JSON\n﻿GetLocationCoordinates({\"authenticationResultCode\":\"ValidCredentials\",\"brandLogoUri\":\"http:\\/\\/dev.virtualearth.net\\/Branding\\/logo_powered_by.png\",\"copyright\":\"Copyright © 2011 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.\",\"resourceSets\":[{\"estimatedTotal\":1,\"resources\":[{\"__type\":\"Location:http:\\/\\/schemas.microsoft.com\\/search\\/local\\/ws\\/rest\\/v1\",\"bbox\":[41.771497282429323,-88.031395656228241,41.779222717570676,-88.017584343771759],\"name\":\"6109 Springside Ave, Downers Grove, IL 60516-1771\",\"point\":{\"type\":\"Point\",\"coordinates\":[41.77536,-88.02449]},\"address\":{\"addressLine\":\"6109 Springside Ave\",\"adminDistrict\":\"IL\",\"adminDistrict2\":\"DuPage Co.\",\"countryRegion\":\"United States\",\"formattedAddress\":\"6109 Springside Ave, Downers Grove, IL 60516-1771\",\"locality\":\"Downers Grove\",\"postalCode\":\"60516-1771\"},\"confidence\":\"High\",\"entityType\":\"Address\"}]}],\"statusCode\":200,\"statusDescription\":\"OK\",\"traceId\":\"b4881270869d407a9fbfc6b50dccf78d|BL2M002309|02.00.126.3000|BL2MSNVM001289\"})",
+    "LastUpdatedDate": "2011-09-13T07:47:29.337-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "jsonclassgenerator",
+    "ReportedDate": "2011-09-12T17:40:09.263-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Unable to generate the code: Unexpected character encountered while parsing value: ﻿. Line 1, position 1.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 1170
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "When I downloaded the source code and tried again. It was successful.",
+      "PostedDate": "2011-09-12T17:49:01.423-07:00",
+      "Id": 68499
+    },
+    {
+      "Message": "Hi,\r\nYou should remove the non-json part of code:\r\nOK: {\"authentication.....}\r\nWrong: ﻿GetLocationCoordinates({\"authentication.....})\r\n",
+      "PostedDate": "2011-09-13T07:46:36.787-07:00",
+      "Id": 68500
+    }
+  ]
+}

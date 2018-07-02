@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 1,
+    "Custom": "",
+    "Description": "Hi,\n\ni tried using your tool, but when i press Generate it shows messageBox with error:\nUnable to generate the code: Object reference not set to an instance of an object.",
+    "LastUpdatedDate": "2012-04-21T12:05:10.333-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "jsonclassgenerator",
+    "ReportedDate": "2012-04-20T00:16:14.207-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Unable to generate the code",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 1296
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Can you attach the JSON code that causes Json C# Generator to display this error message?",
+      "PostedDate": "2012-04-21T12:05:10.333-07:00",
+      "Id": 68501
+    }
+  ]
+}
